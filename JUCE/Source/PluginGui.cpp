@@ -1089,7 +1089,7 @@ void PluginGui::buttonClicked (Button* buttonThatWasClicked)
     {
         //[UserButtonCode_textButtonSetting] -- add your button handler code here..
         SettingGui component(_proc);
-        std::int32_t r = juce::DialogWindow::showModalDialog("Setiing", &component, 0, juce::Colours::whitesmoke, false, false, false);
+        std::int32_t r = juce::DialogWindow::showModalDialog("Setting", &component, 0, juce::Colours::whitesmoke, false, false, false);
         //[/UserButtonCode_textButtonSetting]
     }
     else if (buttonThatWasClicked == textButtonUndoNote.get())
